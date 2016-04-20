@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+title: AOSP-Samsung-MSM7x30
+date: 2015-04-05
+img: aosp.png
+alt: image-alt
+project-date: Maret 2015
+by: Khusika
+category: Android Operating System
+description: <a href="https://github.com/aosp-samsung-msm7x30">AOSP-Samsung-MSM7x30</a> is an android operating system based on AOSP. This project start on 2015 with Lollipop-mr1. This project for Samsung devices with msm7x30 as chipset. Developed by <a href="https://github.com/khusika">khusika</a> & <a href="https://github.com/nilac8991">nilac</a>
+
+---
