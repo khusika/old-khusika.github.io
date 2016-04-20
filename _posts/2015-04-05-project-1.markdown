@@ -6,7 +6,7 @@ date: 2015-04-05
 img: abip.png
 alt: image-alt
 project-date: April 2015
-client: Start Bootstrap
+by: Khusika
 category: Android Operating System
 description: <a href="https://github.com/abip">Android Batik Indonesia Project ( ABIP )</a> is an android operating system based on AOSP and CyanogenMod. This project start on 2015 with branch kitkat and still under development by khusika.
 
