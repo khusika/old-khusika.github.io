@@ -194,6 +194,48 @@ section.success {
     }
 }
 
+.about-inner {
+    margin: 60px 0;
+}
+
+.person-about .title {
+    margin-bottom: 15px;
+}
+
+.about-subtitle {
+  color: #2196F3;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.person-about .subtitle {
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.person-about p {
+  color: #727272;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.person-info h5 {
+  border-bottom: 1px solid #eeeeee;
+  color: #727272;
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.person-info h5 span {
+  display: inline-block;
+  min-width: 70px;
+}
+
 #project .project-item {
     right: 0;
     margin: 0 0 15px;
