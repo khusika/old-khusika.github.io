@@ -203,7 +203,7 @@ section.success {
 }
 
 .about-subtitle {
-  color: #2196F3;
+  color: #ecf0f1;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -217,7 +217,7 @@ section.success {
 }
 
 .person-about p {
-  color: #727272;
+  color: #ecf0f1;
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -225,7 +225,7 @@ section.success {
 
 .person-info h5 {
   border-bottom: 1px solid #eeeeee;
-  color: #727272;
+  color: #ecf0f1;
   font-size: 14px;
   margin-bottom: 12px;
   padding-bottom: 12px;
