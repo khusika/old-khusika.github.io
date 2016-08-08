@@ -376,17 +376,12 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+	margin: 0;
     background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
     margin-bottom: 50px;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
