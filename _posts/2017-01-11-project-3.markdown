@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+title: SMARTFISH
+date: 2017-01-11
+img: smartfish.png
+alt: image-alt
+project-date: Januari 2017
+by: Khusika
+category: Aplication
+description: <a href="https://smart-fish.github.io">SMARTFISH (Smart Cooperative for Fisherman Welfate)</a> is an cooperative for fisherman welfare based on android. Developed by <a href="https://instagram.com/farizchaoo/">Farizcha</a> & <a href="https://github.com/khusika">Khusika</a>
+
+---
