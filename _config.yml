@@ -51,9 +51,6 @@ social:
 address:
   - line: Sidoarjo, East Java , Indonesia
 
-# Credits content
-credits: '<a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer-Theme</a>'
-
 # Build settings
 markdown: kramdown
 permalink: pretty
