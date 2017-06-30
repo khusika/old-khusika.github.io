@@ -594,7 +594,7 @@ footer .footer-col {
     animation: loading-5 1.2s linear forwards 1.8s;
 }
 .skill-subtitles{
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100%;
   text-align: center;
