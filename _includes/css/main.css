@@ -656,3 +656,13 @@ footer .footer-col {
 .bg-light-gray {
     background-color: #f7f7f7;
 }
+
+.btn-out {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-success.btn-out {
+    font-size: 20px;
+}
