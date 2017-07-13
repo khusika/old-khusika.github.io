@@ -2,27 +2,33 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll row">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
                     <li class="page-scroll">
                         <a href="#project">Project</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
+                    </li>
+                </ul>
+                <div class="navbar-brand hidden-xs">
+                  <a class="white-circle">
+                    <img class="logo img-circle" href="#page-top" src="img/profile.png" alt="">
+                  </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
                         <a href="#skill">Skill</a>
