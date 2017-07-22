@@ -577,29 +577,23 @@ footer .footer-col {
     top: 5%;
     left: 5%;
 }
-.progress.blue .progress-bar{
-    border-color: #049dff;
-}
-.progress.blue .progress-left .progress-bar{
-    animation: loading-2 1.5s linear forwards 1.8s;
-}
-.progress.yellow .progress-bar{
-    border-color: #fdba04;
-}
-.progress.yellow .progress-left .progress-bar{
-    animation: loading-3 1s linear forwards 1.8s;
-}
-.progress.pink .progress-bar{
-    border-color: #ed687c;
-}
-.progress.pink .progress-left .progress-bar{
-    animation: loading-4 0.4s linear forwards 1.8s;
-}
-.progress.green .progress-bar{
+.progress.green30 .progress-bar{
     border-color: #1abc9c;
 }
-.progress.green .progress-left .progress-bar{
-    animation: loading-5 1.2s linear forwards 1.8s;
+.progress.green30 .progress-right .progress-bar{
+    animation: loading-6 1.8s linear forwards 0.2s;
+}
+.progress.green40 .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green40 .progress-right .progress-bar{
+    animation: loading-2 1.8s linear forwards 0.2s;
+}
+.progress.green60 .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green60 .progress-left .progress-bar{
+    animation: loading-4 0.2s linear forwards 1.8s;
 }
 .skill-subtitles{
   position: relative;
@@ -657,6 +651,17 @@ footer .footer-col {
         transform: rotate(126deg);
     }
 }
+@keyframes loading-6{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(108deg);
+        transform: rotate(108deg);
+    }
+}
+
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
