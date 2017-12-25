@@ -93,8 +93,8 @@ hr.star-grey:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    background: #color: #fff;
 }
 
 header .container {
@@ -254,7 +254,7 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 294px;
 }
 
 #project .project-item .project-link .caption {
@@ -472,8 +472,8 @@ footer .footer-col {
 .project-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
-    margin-left: 35px;
+    height: 20px;
+    margin-right: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -483,7 +483,7 @@ footer .footer-col {
 .project-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 20px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
