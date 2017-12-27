@@ -695,6 +695,39 @@ footer .footer-col {
 }
 
 /*!
+ * Project Filtering Category
+ * Adapted from https://bootsnipp.com/snippets/featured/portfolio-gallery-with-filtering-category
+ */
+
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #{{ site.color.primary }};
+    border-radius: 5px;
+    text-align: center;
+    color: #{{ site.color.primary }};
+    background-color: #ffffff;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #{{ site.color.primary }};
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #{{ site.color.primary }};
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #{{ site.color.primary }};
+    color: white;
+}
+
+/*!
  * Extras
  */
 .bg-light-gray {
