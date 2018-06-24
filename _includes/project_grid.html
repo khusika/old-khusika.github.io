@@ -9,16 +9,9 @@
                 </div>
             </div>
             <div class="row">
-                <div align="center">
-                    <button class="btn btn-default filter-button" data-filter="all">All</button>
-                    <button class="btn btn-default filter-button" data-filter="os">Android OS</button>
-                    <button class="btn btn-default filter-button" data-filter="apps">Android Apps</button>
-                    <button class="btn btn-default filter-button" data-filter="graphic">Design Graphic</button>
-                </div>
-                <br/>
                 {% for post in site.posts %}
                     <div class="col-sm-4 project-item">
-                        <a href="#projectModal-{{ post.modal-id }}" class="project-link filter {{ post.class-id }}" data-toggle="modal">
+                        <a href="#projectModal-{{ post.modal-id }}" class="project-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>

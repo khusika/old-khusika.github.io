@@ -1,6 +1,5 @@
 ---
 layout: default
-class-id: os
 modal-id: 1
 title: ABIP
 date: 2015-04-05
