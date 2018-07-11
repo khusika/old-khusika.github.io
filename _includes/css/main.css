@@ -432,19 +432,19 @@ footer .footer-col {
 }
 
 .project-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
     text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    padding: 3rem 1rem;
+    min-height: calc(100vh - 2rem);
+    margin: 1rem calc(1rem - 8px);
+    position: relative;
+    z-index: 2;
+    -moz-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .project-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
+    font-size: 2rem;
 }
 
 .project-modal .modal-content img {
@@ -453,6 +453,17 @@ footer .footer-col {
 
 .project-modal .modal-content .item-details {
     margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+    .project-modal .modal-content {
+      min-height: 100vh;
+      padding: 5rem;
+      margin: 3rem calc(3rem - 8px);
+    }
+    .project-modal .modal-content h2 {
+      font-size: 3rem;
+    }
 }
 
 .project-modal .close-modal {
