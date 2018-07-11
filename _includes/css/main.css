@@ -422,13 +422,23 @@ footer .footer-col {
 .scroll-top .btn {
     width: 50px;
     height: 50px;
-    border-radius: 100%;
+    border-radius: 0.25rem !important;
     font-size: 20px;
     line-height: 28px;
 }
 
 .scroll-top .btn:focus {
     outline: 0;
+}
+
+@media (min-width: 992px) {
+    .d-lg-none {
+      display: none !important;
+    }
+}
+
+.d-block {
+    display: block !important;
 }
 
 .project-modal .modal-content {
