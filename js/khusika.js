@@ -36,15 +36,15 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-// Scroll to top button appear
-$(document).scroll(function() {
-  var scrollDistance = $(this).scrollTop();
-  if (scrollDistance > 100) {
-    $('.scroll-top').fadeIn();
-  } else {
-    $('.scroll-top').fadeOut();
-  }
-});
+// // Scroll to top button appear
+// $(document).scroll(function() {
+//   var scrollDistance = $(this).scrollTop();
+//   if (scrollDistance > 100) {
+//     $('.scroll-top').fadeIn();
+//   } else {
+//     $('.scroll-top').fadeOut();
+//   }
+// });
 
 document.onkeydown = function(e) {
   if(event.keyCode == 123) {
