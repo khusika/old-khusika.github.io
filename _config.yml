@@ -34,7 +34,7 @@ color:
 footer:
   copyright: khusika
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/khusikadhamar
@@ -42,8 +42,6 @@ social:
     url: http://instagram.com/khusikadhamargusti
   - title: facebook
     url: http://facebook.com/khusika.dhamar.gusti
-  - title: google-plus
-    url: http://plus.google.com/u/0/+KhusikaDhamar
   - title: github
     url: http://github.com/khusika
   - title: telegram
