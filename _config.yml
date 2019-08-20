@@ -6,6 +6,7 @@ description: "Khusika is an android developer from Indonesia"
 keywords: "K_TECH, android, khusika, android indonesia, android developer, Khusika Dhamar Gusti, SMAMDA, Universitas Brawijaya, Teknologi Industri Pertanian, Agroindustrial Technology, Raja Brawijaya"
 skills: "Android Developer - Graphic Designer"
 meta_author: Khusika Dhamar Gusti
+address: Sidoarjo, East Java , Indonesia
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -43,10 +44,6 @@ social:
     url: http://github.com/khusika
   - title: telegram
     url: http://t.me/khusika
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Sidoarjo, East Java , Indonesia
 
 # Build settings
 markdown: kramdown
