@@ -1,7 +1,7 @@
 # Site settings
 title: khusika
 email: mail@khusika.com
-url: http://khusika.com
+url: https://khusika.com
 description: "Khusika is an android developer from Indonesia"
 keywords: "K_TECH, android, khusika, android indonesia, android developer, Khusika Dhamar Gusti, SMAMDA, Universitas Brawijaya, Teknologi Industri Pertanian, Agroindustrial Technology, Raja Brawijaya"
 skills: "Android Developer - Graphic Designer"
@@ -35,15 +35,15 @@ footer:
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/khusikadhamar
+    url: https://twitter.com/khusikadhamar
   - title: instagram
-    url: http://instagram.com/khusikadhamargusti
+    url: https://instagram.com/khusikadhamargusti
   - title: facebook
-    url: http://facebook.com/khusika.dhamar.gusti
+    url: https://facebook.com/khusika.dhamar.gusti
   - title: github
-    url: http://github.com/khusika
+    url: https://github.com/khusika
   - title: telegram
-    url: http://t.me/khusika
+    url: https://t.me/khusika
 
 # Build settings
 markdown: kramdown
